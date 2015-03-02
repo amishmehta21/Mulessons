@@ -1,0 +1,75 @@
+﻿tr.gridItem:hover 
+{
+    background-color:Silver;
+}
+tr.gridAltItem:hover 
+{
+    background-color:Gray;
+}
+tr.gridItem
+{
+     color:Black;
+    background-color:Aqua;
+}
+tr.gridItem:click
+{
+     color:Black;
+    background-color:Red;
+}
+tr.gridAltItem
+{
+    color:Black;
+    background-color:Orange;
+}
+
+tr.header
+{
+    color:Black;
+    background-color:#E5E5FE;
+}
+
+td.selectedItem:hover
+{
+    background-color:Navy;
+}
+
+.tableLayout {
+  border-collapse: separate;
+  border-spacing: 1px;
+  background: #000 url("gradient.gif") bottom left repeat-x;
+  color:Maroon;
+   border:1px solid Maroon;
+}
+
+
+
+.pnlEditTextItem
+{
+      background-color:Silver;
+    width:auto;
+    height:auto;
+    color:Black;
+}
+
+.tdBackColor
+{
+    background-color:Gray;
+    color:Black;
+    font-family:Arial Black;
+     
+}
+
+.trBackColor
+{
+    background-color:Gray;
+    font-family:Arial Black;
+    color:Black;
+}
+
+.pnlDeleteTextItem
+{
+      background-color:Silver;
+      color:Black;
+    width:auto;
+    height:auto;
+}

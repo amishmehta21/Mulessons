@@ -1,0 +1,190 @@
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSec.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSec.pdb
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecBAL.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecBO.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecDO.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecBAL.pdb
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecBO.pdb
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecDO.pdb
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\obj\Debug\UserSec.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSec.dll
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSec.pdb
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecBAL.dll
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecBO.dll
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecDO.dll
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecBO.pdb
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\bin\UserSecDO.pdb
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\Kintan\QnA-Edu\EduQnA\FmZaid-140414\UserSec\UserSec\UserSec\obj\Debug\UserSec.pdb
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\bin\UserSec.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\bin\UserSec.pdb
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\bin\UserSecBAL.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\bin\UserSecBO.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\bin\UserSecDO.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\bin\UserSecBAL.pdb
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\bin\UserSecBO.pdb
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\bin\UserSecDO.pdb
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\obj\Debug\UserSec.dll
+J:\Kintan\EduQnA\FmZaid-140414\UserSec--2004142350\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--2004142350-1\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\bin\UserSec.dll
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\bin\UserSec.pdb
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBAL.dll
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBO.dll
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecDO.dll
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBO.pdb
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecDO.pdb
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\Kintan\QnA-Edu\UserSec--2004142350-1--fmAmish-100514\UserSec--2004142350-1\UserSec\UserSec\obj\Debug\UserSec.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\bin\UserSec.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\bin\UserSec.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBAL.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBO.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecDO.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBAL.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecBO.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\bin\UserSecDO.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\obj\Debug\UserSec.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--2004142350-1\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--120514-1930\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--120514-1930\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--120514-1930\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--120514-1930\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--120514-1930\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--120514-1930\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--120514-1930\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--120514-1930\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--120514-1930\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--120514-1930\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--120514-1930\UserSec\UserSec\obj\Debug\UserSec.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\bin\UserSec.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\bin\UserSec.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\bin\UserSecBAL.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\bin\UserSecBO.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\bin\UserSecDO.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\bin\UserSecBAL.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\bin\UserSecBO.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\bin\UserSecDO.pdb
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\obj\Debug\UserSec.dll
+C:\Documents and Settings\Admin\Desktop\UserSec--190514-1930\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--190514-1930\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--190514-1930\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--190514-1930\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--190514-1930\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--190514-1930\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--190514-1930\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--190514-1930\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--190514-1930\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--190514-1930\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--190514-1930\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--190514-1930\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--270514\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--270514\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--270514\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--270514\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--270514\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--270514\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--270514\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--270514\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--270514\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--270514\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--270514\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--2005\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--2005\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--2005\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--2005\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--2005\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--2005\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--2005\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--2005\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--2005\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--2005\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--2005\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--290514\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--290514\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--290514\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--290514\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--290514\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--290514\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--290514\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--290514\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--290514\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--290514\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--290514\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--300514\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--300514\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--300514\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--300514\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--300514\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--300514\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--300514\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--300514\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--300514\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--300514\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--300514\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--030614\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--030614\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--030614\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--030614\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--030614\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--030614\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--030614\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--030614\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--030614\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--030614\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--030614\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--040614\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--040614\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--040614\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--040614\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--040614\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--040614\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--040614\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--040614\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--040614\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--040614\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--040614\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--140614\UserSec\UserSec\bin\UserSec.dll
+D:\AM\UserSec--140614\UserSec\UserSec\bin\UserSec.pdb
+D:\AM\UserSec--140614\UserSec\UserSec\bin\UserSecBAL.dll
+D:\AM\UserSec--140614\UserSec\UserSec\bin\UserSecBO.dll
+D:\AM\UserSec--140614\UserSec\UserSec\bin\UserSecDO.dll
+D:\AM\UserSec--140614\UserSec\UserSec\bin\UserSecBAL.pdb
+D:\AM\UserSec--140614\UserSec\UserSec\bin\UserSecBO.pdb
+D:\AM\UserSec--140614\UserSec\UserSec\bin\UserSecDO.pdb
+D:\AM\UserSec--140614\UserSec\UserSec\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\UserSec--140614\UserSec\UserSec\obj\Debug\UserSec.dll
+D:\AM\UserSec--140614\UserSec\UserSec\obj\Debug\UserSec.pdb
+D:\AM\UserSec--140614\UserSec\UserSec\bin\ASPSnippets.SmsAPI.dll
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\UserSec.dll.config
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\UserSec.dll
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\UserSec.pdb
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\ASPSnippets.SmsAPI.dll
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\UserSecBAL.dll
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\UserSecBO.dll
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\UserSecDO.dll
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\UserSecBAL.pdb
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\UserSecBO.pdb
+C:\Mulessons\UserSec--140614\UserSec\UserSec\bin\UserSecDO.pdb
+C:\Mulessons\UserSec--140614\UserSec\UserSec\obj\Debug\UserSec.csprojResolveAssemblyReference.cache
+C:\Mulessons\UserSec--140614\UserSec\UserSec\obj\Debug\UserSec.dll
+C:\Mulessons\UserSec--140614\UserSec\UserSec\obj\Debug\UserSec.pdb

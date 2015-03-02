@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{52F210CA-77A7-4A78-9DD3-AB61F55F39CD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserSec</RootNamespace>
+    <AssemblyName>UserSec</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.607, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ASPSnippets.SmsAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ASPSnippets.SmsAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ConfirmPassWord.aspx" />
+    <Content Include="css\style.css" />
+    <Content Include="css\tabs.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="gifFiles\ajax-loader.gif" />
+    <Content Include="header.js" />
+    <Content Include="Images\Icons\add.png" />
+    <Content Include="Images\Icons\delete.png" />
+    <Content Include="Images\Icons\first_button.png" />
+    <Content Include="Images\Icons\house_2.png" />
+    <Content Include="Images\Icons\icon-delete1.gif" />
+    <Content Include="Images\Icons\icon-pencil1.gif" />
+    <Content Include="Images\Icons\view_doc.png" />
+    <Content Include="Images\ban-bot-up-arw.png" />
+    <Content Include="Images\banner-img.jpg" />
+    <Content Include="Images\bg-pattern.gif" />
+    <Content Include="Images\bg-pattern.jpg" />
+    <Content Include="Images\bg-pattern.png" />
+    <Content Include="Images\btn-bg.png" />
+    <Content Include="Images\btn-hover-get-started.png" />
+    <Content Include="Images\btn-normal-get-started.png" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\form-trasp-border.png" />
+    <Content Include="Images\heading-bottom-border.png" />
+    <Content Include="Images\home-icon.png" />
+    <Content Include="Images\how-it-works-big-img.jpg" />
+    <Content Include="Images\how-it-works-small-img.jpg" />
+    <Content Include="Images\icons.png" />
+    <Content Include="Images\ks-logo.gif" />
+    <Content Include="Images\login-heading-bg.png" />
+    <Content Include="Images\login-heading-bot-arw.png" />
+    <Content Include="Images\login-submit-btn-active.png" />
+    <Content Include="Images\login-submit-btn-hover.png" />
+    <Content Include="Images\login-submit-btn.png" />
+    <Content Include="Images\main-bg.jpg" />
+    <Content Include="Images\MuLLogo.jpg" />
+    <Content Include="Images\MuLLogoRect.jpg" />
+    <Content Include="Images\pagination-icons.png" />
+    <Content Include="Images\shadow-effect.png" />
+    <Content Include="Images\sprite-16x16.png" />
+    <Content Include="Images\sprite-24x24.png" />
+    <Content Include="Images\td-border.png" />
+    <Content Include="Images\top-arrow.png" />
+    <Content Include="img\apps\container-box.gif" />
+    <Content Include="img\apps\pcp-box.gif" />
+    <Content Include="img\apps\pd-box.gif" />
+    <Content Include="img\apps\pdfwl-box.gif" />
+    <Content Include="img\apps\poa-box.gif" />
+    <Content Include="img\apps\server-box.gif" />
+    <Content Include="img\common\box-corners.png" />
+    <Content Include="img\common\def_plesk_logo.gif" />
+    <Content Include="img\common\footer_bg.png" />
+    <Content Include="img\common\globe.png" />
+    <Content Include="img\common\th-na-bg.gif" />
+    <Content Include="img\common\top-company-logo.gif" />
+    <Content Include="img\common\top_bg.png" />
+    <Content Include="img\glyph\btn_aspdotnet_bg.gif" />
+    <Content Include="img\glyph\btn_asp_bg.gif" />
+    <Content Include="img\glyph\btn_bg-disabled.gif" />
+    <Content Include="img\glyph\btn_bg.gif" />
+    <Content Include="img\glyph\btn_coldfusion_bg.gif" />
+    <Content Include="img\glyph\btn_ok_bg.gif" />
+    <Content Include="img\glyph\btn_perl_bg.gif" />
+    <Content Include="img\glyph\btn_php_bg.gif" />
+    <Content Include="img\glyph\btn_python_bg.gif" />
+    <Content Include="img\icons\fail.gif" />
+    <Content Include="img\icons\success.gif" />
+    <Content Include="img\icons\tabs\tabs-bg.png" />
+    <Content Include="JavaScript\CommonJSDataPagertxtValidation\DataPagerTxtValidation.js" />
+    <Content Include="Jquery\jquery-1.3.2-vsdoc2.js" />
+    <Content Include="Jquery\jquery-1.3.2.js" />
+    <Content Include="Jquery\jquery.blockUI.js" />
+    <Content Include="Jquery\jquery.easing.min.js" />
+    <Content Include="Jquery\jquery.form.js" />
+    <Content Include="Jquery\jquery.js" />
+    <Content Include="Jquery\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Jquery\jquery.MetaData.js" />
+    <Content Include="Jquery\jquery.min.js" />
+    <Content Include="Jquery\jquery.MultiFile.js" />
+    <Content Include="Jquery\jquery.MultiFile.pack.js" />
+    <Content Include="Jquery\jquery.validate.js" />
+    <Content Include="Jquery\nav.js" />
+    <Content Include="Logout.aspx" />
+    <Content Include="QuestAns\ASPSnippets.SmsAPI.dll" />
+    <Content Include="QuestAns\flowplayer-3.2.12.min.js" />
+    <Content Include="QuestAns\flowplayer-3.2.16.swf" />
+    <Content Include="QuestAns\flowplayer.controls-3.2.15.swf" />
+    <Content Include="QuestAns\flowplayer.pseudostreaming-3.2.12.swf" />
+    <Content Include="test\QuestAnsCSS\AboutUs.css" />
+    <Content Include="QuestAnsImages\AboutUs\aboutus_icon.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\bg1.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\bot1.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\contactus_icon.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\contactus_slider.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\hiw1.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\hiw2.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\hiw_icon.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\hiw_slider.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\pho1.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\slider1.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\slider2.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\slider3.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\top1.jpg" />
+    <Content Include="QuestAnsImages\AboutUs\we1.jpg" />
+    <Content Include="QuestAnsJs\scriptpartners.js" />
+    <Content Include="QuestAns\QA_AboutUs.aspx" />
+    <Content Include="QuestAns\QA_AddKO.aspx" />
+    <Content Include="QuestAns\QA_AdvancedSearchQuestions.aspx" />
+    <Content Include="QuestAns\QA_Blog.aspx" />
+    <Content Include="QuestAns\QA_Contact.aspx" />
+    <Content Include="QuestAns\QA_DiscoveryLab.aspx" />
+    <Content Include="QuestAns\QA_FAQ.aspx" />
+    <Content Include="QuestAns\QA_Feedback.aspx" />
+    <Content Include="QuestAns\QA_FullTime.aspx" />
+    <Content Include="QuestAns\QA_Help.aspx" />
+    <Content Include="QuestAns\QA_HowItWorks.aspx" />
+    <Content Include="QuestAns\QA_Internships.aspx" />
+    <Content Include="QuestAns\QA_ListKO.aspx" />
+    <Content Include="QuestAns\QA_MyAnswers.aspx" />
+    <Content Include="QuestAns\QA_MyKO.aspx" />
+    <Content Include="QuestAns\QA_MyQuestions.aspx" />
+    <Content Include="QuestAns\QA_OurMission.aspx" />
+    <Content Include="QuestAns\QA_OurSupporters.aspx" />
+    <Content Include="QuestAns\QA_QnAWithoutLogin.aspx" />
+    <Content Include="QuestAns\QA_QuestionAdd.aspx" />
+    <Content Include="QuestAns\QA_QuestionList.aspx" />
+    <Content Include="QuestAns\QA_QuestWithAns.aspx" />
+    <Content Include="QuestAns\QA_QuestWithAnsWOLogin.aspx" />
+    <Content Include="QuestAns\QA_QuickSearch.aspx" />
+    <Content Include="QuestAns\QA_HomePageWOLogin.aspx" />
+    <Content Include="QuestAns\QA_ReportProblem.aspx" />
+    <Content Include="QuestAns\QA_SearchQuestions.aspx" />
+    <Content Include="QuestAns\QA_SearchQuestionWOLogin.aspx" />
+    <Content Include="QuestAns\QA_UnResolved.aspx" />
+    <Content Include="QuestAns\QA_ViewKO.aspx" />
+    <Content Include="QuestAns\QA_ViewKOWOLogin.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="UM_Global.asax" />
+    <Content Include="UM_UserControls\UM_UC_HomePageSetup.ascx" />
+    <Content Include="UM_UserControls\UM_UC_RoleUpdate.ascx" />
+    <Content Include="UserMaintCSS\jquery.mCustomScrollbar.css" />
+    <Content Include="UserMaintCSS\LoginCSS\login.css" />
+    <Content Include="UserMaintCSS\LoginCSS\main.css" />
+    <Content Include="UserMaintCSS\LoginCSS\main2.css" />
+    <Content Include="UserMaintCSS\LoginCSS\normalize.css" />
+    <Content Include="UserMaintCSS\main.css" />
+    <Content Include="UserMaintCSS\UM_HomePageList.css" />
+    <Content Include="UserMaintCSS\UM_HomePageSearchList.css" />
+    <Content Include="UserMaintCSS\UM_RoleAccessRights.css" />
+    <Content Include="UserMaintCSS\UM_RoleAdd.css" />
+    <Content Include="Login.aspx" />
+    <Content Include="UserMaintCSS\GeneralMaster.css" />
+    <Content Include="UserMaintCSS\UM_RoleList.css" />
+    <Content Include="UserMaintCSS\UM_RoleMember.css" />
+    <Content Include="UserMaintCSS\UM_UC_RoleUpdate.css" />
+    <Content Include="UserMaint\UM_ForgotPassword.aspx" />
+    <Content Include="UserMaint\UM_HomePageList.aspx" />
+    <Content Include="UserMaint\UM_HomePageSearchList.aspx" />
+    <Content Include="UserMaint\UM_HomePageSetup.aspx" />
+    <Content Include="UserMaint\UM_CompanySettings.aspx" />
+    <Content Include="UserMaint\UM_ResetPassword.aspx" />
+    <Content Include="UserMaint\UM_RoleAccessRights.aspx" />
+    <Content Include="UserMaint\UM_RoleList.aspx" />
+    <Content Include="UserMaint\UM_RoleAdd.aspx" />
+    <Content Include="UserMaint\UM_RoleMember.aspx" />
+    <Content Include="UserMaint\UM_UserAdd.aspx" />
+    <Content Include="UserMaint\LoggedInHome.aspx" />
+    <Content Include="UserMaintCSS\LoggedInMaster.css" />
+    <Content Include="UserMaint\UM_UserList.aspx" />
+    <Content Include="UserSec.Publish.xml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfirmPassWord.aspx.cs">
+      <DependentUpon>ConfirmPassWord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmPassWord.aspx.designer.cs">
+      <DependentUpon>ConfirmPassWord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="General.Master.cs">
+      <DependentUpon>General.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="General.Master.designer.cs">
+      <DependentUpon>General.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\FileCS.ashx.cs">
+      <DependentUpon>FileCS.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_AboutUs.aspx.cs">
+      <DependentUpon>QA_AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_AboutUs.aspx.designer.cs">
+      <DependentUpon>QA_AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_AddKO.aspx.cs">
+      <DependentUpon>QA_AddKO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_AddKO.aspx.designer.cs">
+      <DependentUpon>QA_AddKO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_AdvancedSearchQuestions.aspx.cs">
+      <DependentUpon>QA_AdvancedSearchQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_AdvancedSearchQuestions.aspx.designer.cs">
+      <DependentUpon>QA_AdvancedSearchQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_Blog.aspx.cs">
+      <DependentUpon>QA_Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_Blog.aspx.designer.cs">
+      <DependentUpon>QA_Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_Contact.aspx.cs">
+      <DependentUpon>QA_Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_Contact.aspx.designer.cs">
+      <DependentUpon>QA_Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_DiscoveryLab.aspx.cs">
+      <DependentUpon>QA_DiscoveryLab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_DiscoveryLab.aspx.designer.cs">
+      <DependentUpon>QA_DiscoveryLab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_FAQ.aspx.cs">
+      <DependentUpon>QA_FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_FAQ.aspx.designer.cs">
+      <DependentUpon>QA_FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_Feedback.aspx.cs">
+      <DependentUpon>QA_Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_Feedback.aspx.designer.cs">
+      <DependentUpon>QA_Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_FullTime.aspx.cs">
+      <DependentUpon>QA_FullTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_FullTime.aspx.designer.cs">
+      <DependentUpon>QA_FullTime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_Help.aspx.cs">
+      <DependentUpon>QA_Help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_Help.aspx.designer.cs">
+      <DependentUpon>QA_Help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_HowItWorks.aspx.cs">
+      <DependentUpon>QA_HowItWorks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_HowItWorks.aspx.designer.cs">
+      <DependentUpon>QA_HowItWorks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_Internships.aspx.cs">
+      <DependentUpon>QA_Internships.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_Internships.aspx.designer.cs">
+      <DependentUpon>QA_Internships.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_ListKO.aspx.cs">
+      <DependentUpon>QA_ListKO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_ListKO.aspx.designer.cs">
+      <DependentUpon>QA_ListKO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_MyAnswers.aspx.cs">
+      <DependentUpon>QA_MyAnswers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_MyAnswers.aspx.designer.cs">
+      <DependentUpon>QA_MyAnswers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_MyKO.aspx.cs">
+      <DependentUpon>QA_MyKO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_MyKO.aspx.designer.cs">
+      <DependentUpon>QA_MyKO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_MyQuestions.aspx.cs">
+      <DependentUpon>QA_MyQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_MyQuestions.aspx.designer.cs">
+      <DependentUpon>QA_MyQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_OurMission.aspx.cs">
+      <DependentUpon>QA_OurMission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_OurMission.aspx.designer.cs">
+      <DependentUpon>QA_OurMission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_OurSupporters.aspx.cs">
+      <DependentUpon>QA_OurSupporters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_OurSupporters.aspx.designer.cs">
+      <DependentUpon>QA_OurSupporters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_QnAWithoutLogin.aspx.cs">
+      <DependentUpon>QA_QnAWithoutLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_QnAWithoutLogin.aspx.designer.cs">
+      <DependentUpon>QA_QnAWithoutLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuestionAdd.aspx.cs">
+      <DependentUpon>QA_QuestionAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuestionAdd.aspx.designer.cs">
+      <DependentUpon>QA_QuestionAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuestionList.aspx.cs">
+      <DependentUpon>QA_QuestionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuestionList.aspx.designer.cs">
+      <DependentUpon>QA_QuestionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuestWithAns.aspx.cs">
+      <DependentUpon>QA_QuestWithAns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuestWithAns.aspx.designer.cs">
+      <DependentUpon>QA_QuestWithAns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuestWithAnsWOLogin.aspx.cs">
+      <DependentUpon>QA_QuestWithAnsWOLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuestWithAnsWOLogin.aspx.designer.cs">
+      <DependentUpon>QA_QuestWithAnsWOLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuickSearch.aspx.cs">
+      <DependentUpon>QA_QuickSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_QuickSearch.aspx.designer.cs">
+      <DependentUpon>QA_QuickSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_HomePageWOLogin.aspx.cs">
+      <DependentUpon>QA_HomePageWOLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_HomePageWOLogin.aspx.designer.cs">
+      <DependentUpon>QA_HomePageWOLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_ReportProblem.aspx.cs">
+      <DependentUpon>QA_ReportProblem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_ReportProblem.aspx.designer.cs">
+      <DependentUpon>QA_ReportProblem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_SearchQuestions.aspx.cs">
+      <DependentUpon>QA_SearchQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_SearchQuestions.aspx.designer.cs">
+      <DependentUpon>QA_SearchQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_SearchQuestionWOLogin.aspx.cs">
+      <DependentUpon>QA_SearchQuestionWOLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_SearchQuestionWOLogin.aspx.designer.cs">
+      <DependentUpon>QA_SearchQuestionWOLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_UnResolved.aspx.cs">
+      <DependentUpon>QA_UnResolved.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_UnResolved.aspx.designer.cs">
+      <DependentUpon>QA_UnResolved.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_ViewKO.aspx.cs">
+      <DependentUpon>QA_ViewKO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_ViewKO.aspx.designer.cs">
+      <DependentUpon>QA_ViewKO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QA_ViewKOWOLogin.aspx.cs">
+      <DependentUpon>QA_ViewKOWOLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QA_ViewKOWOLogin.aspx.designer.cs">
+      <DependentUpon>QA_ViewKOWOLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestAns\QuestAnsStatic.Master.cs">
+      <DependentUpon>QuestAnsStatic.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestAns\QuestAnsStatic.Master.designer.cs">
+      <DependentUpon>QuestAnsStatic.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UM_Global.asax.cs">
+      <DependentUpon>UM_Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="UM_UserControls\UM_UC_HomePageSetup.ascx.cs">
+      <DependentUpon>UM_UC_HomePageSetup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UM_UserControls\UM_UC_HomePageSetup.ascx.designer.cs">
+      <DependentUpon>UM_UC_HomePageSetup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UM_UserControls\UM_UC_RoleUpdate.ascx.cs">
+      <DependentUpon>UM_UC_RoleUpdate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UM_UserControls\UM_UC_RoleUpdate.ascx.designer.cs">
+      <DependentUpon>UM_UC_RoleUpdate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_ForgotPassword.aspx.cs">
+      <DependentUpon>UM_ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_ForgotPassword.aspx.designer.cs">
+      <DependentUpon>UM_ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_HomePageList.aspx.cs">
+      <DependentUpon>UM_HomePageList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_HomePageList.aspx.designer.cs">
+      <DependentUpon>UM_HomePageList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_HomePageSearchList.aspx.cs">
+      <DependentUpon>UM_HomePageSearchList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_HomePageSearchList.aspx.designer.cs">
+      <DependentUpon>UM_HomePageSearchList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_HomePageSetup.aspx.cs">
+      <DependentUpon>UM_HomePageSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_HomePageSetup.aspx.designer.cs">
+      <DependentUpon>UM_HomePageSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_CompanySettings.aspx.cs">
+      <DependentUpon>UM_CompanySettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_CompanySettings.aspx.designer.cs">
+      <DependentUpon>UM_CompanySettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_ResetPassword.aspx.cs">
+      <DependentUpon>UM_ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_ResetPassword.aspx.designer.cs">
+      <DependentUpon>UM_ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_RoleAccessRights.aspx.cs">
+      <DependentUpon>UM_RoleAccessRights.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_RoleAccessRights.aspx.designer.cs">
+      <DependentUpon>UM_RoleAccessRights.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_RoleList.aspx.cs">
+      <DependentUpon>UM_RoleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_RoleList.aspx.designer.cs">
+      <DependentUpon>UM_RoleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_RoleAdd.aspx.cs">
+      <DependentUpon>UM_RoleAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_RoleAdd.aspx.designer.cs">
+      <DependentUpon>UM_RoleAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_RoleMember.aspx.cs">
+      <DependentUpon>UM_RoleMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_RoleMember.aspx.designer.cs">
+      <DependentUpon>UM_RoleMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\UM_UserAdd.aspx.cs">
+      <DependentUpon>UM_UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_UserAdd.aspx.designer.cs">
+      <DependentUpon>UM_UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\LoggedInHome.aspx.cs">
+      <DependentUpon>LoggedInHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\LoggedInHome.aspx.designer.cs">
+      <DependentUpon>LoggedInHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaint\LoggedIn.Master.cs">
+      <DependentUpon>LoggedIn.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\LoggedIn.Master.designer.cs">
+      <DependentUpon>LoggedIn.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserMaint\UM_UserList.aspx.cs">
+      <DependentUpon>UM_UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaint\UM_UserList.aspx.designer.cs">
+      <DependentUpon>UM_UserList.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="General.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UserMaint\LoggedIn.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UserSecBAL\UserSecBAL.csproj">
+      <Project>{75B24535-CBE8-4D17-9CC3-5E3595DEB974}</Project>
+      <Name>UserSecBAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserSecBO\UserSecBE.csproj">
+      <Project>{81C68B2F-1C66-424B-8337-6247458DA919}</Project>
+      <Name>UserSecBE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserSecDO\UserSecDAL.csproj">
+      <Project>{1A2D8130-6197-4ED6-ABAA-D67278264102}</Project>
+      <Name>UserSecDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QuestAns\QuestAnsStatic.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="css\vssver.scc" />
+    <None Include="img\apps\vssver.scc" />
+    <None Include="img\common\vssver.scc" />
+    <None Include="img\glyph\vssver.scc" />
+    <None Include="img\icons\tabs\vssver.scc" />
+    <None Include="img\icons\vssver.scc" />
+    <Content Include="QuestAns\FileCS.ashx" />
+    <None Include="QuestAns\ASPSnippets.SmsAPI.dll.refresh" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3914</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/UserSec</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

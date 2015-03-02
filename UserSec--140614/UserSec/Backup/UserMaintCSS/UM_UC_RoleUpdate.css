@@ -1,0 +1,41 @@
+﻿  .style1
+     {
+         width: 226px;
+     }
+     .style2
+     {
+         width: 169px;
+     }
+     .TableDataStyle1 
+{
+    /*
+     width: 100%;
+*/
+}
+.TableDataStyle2 
+{/*
+       width: 182px;
+*/
+}
+.TableDataStyle3 
+{
+    /*
+    width: 140px;
+*/
+}
+.font
+{
+    font-family:Verdana;
+    font-size:11px;
+    font-style:normal;
+    text-decoration:none;
+    color:Red;
+}
+
+.tdBackColor
+{
+    background-color:Gray;
+    color:Black;
+     font-family:Arial Black;
+     
+}

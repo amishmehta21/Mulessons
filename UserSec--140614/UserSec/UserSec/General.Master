@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="General.master.cs" Inherits="UserSec.General" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <%--<meta charset="utf-8" />--%>
+    <title>Welcome To &#956Lessons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+       
+    <!-- style css -->
+    <link href="UserMaintCSS/main.css" rel="stylesheet" type="text/css" media="screen" />
+
+    
+    <!-- html5.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- css3-mediaqueries.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+<script language="javascript" type="text/javascript">
+
+//    $('input').keydown(function (e) {
+//        alert('aaa');
+//        if (e.keyCode == 13) {
+//            $(this).closest('form').submit();
+//        }
+//    });
+
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-48525178-1', 'mulessons.com');
+    ga('send', 'pageview');
+
+
+</script>
+
+</head>
+<body>
+
+    <form id="frmGeneral" runat="server">
+        <div id="header" >
+	                                                                                                <div id="header">
+            <div class="header-containerL">
+                <ul>
+                    <li><asp:ImageButton runat="server" ID="imgBtnLogoTop" class="logo" ImageUrl="~/Images/MuLLogoRect.jpg" 
+                            OnClick="imgLOGORect_Click" ToolTip="Click to go to landing page" /></li>
+                	<li><a href="../QuestAns/QA_AboutUs.aspx" target="_self"><span></span>About Us</a></li>
+                	<li><a href="../QuestAns/QA_HowItWorks.aspx" target="_self"><span></span>How It Works</a></li>
+                	<li><a href="../QuestAns/QA_Contact.aspx" target="_self"><span></span>Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="../QuestAns/QA_SearchQuestionWOLogin.aspx" target="_self"><span></span>Quick Search</a></li>
+                    <li><a href="../QuestAns/QA_Blog.aspx" target="_self"><span></span>Blogs</a></li>
+                    <li><a href="../SignUp.aspx"><span></span>Sign Up</a></li>
+                    <li><asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Login.aspx" Text="Login" 
+                        CausesValidation="false"><span class="icon16 signin"></span>Sign In</asp:LinkButton></li>
+                </ul>
+
+             </div>
+	    </div>        
+        </div>
+
+        <div id="divGenMessage" runat="server" class="message"  >
+        </div>
+
+        <asp:ContentPlaceHolder ID="cphGeneralMaster" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <footer>
+	        <div id="footer">
+                <div class="inner-container">
+                    <div class="legal">
+                        &copy; MuLessons 2013.
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </form>
+    
+</body>
+</html>

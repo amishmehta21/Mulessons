@@ -1,0 +1,5 @@
+D:\AM\VideoProj\VideoProj1\VideoProj1\bin\VideoProj1.dll
+D:\AM\VideoProj\VideoProj1\VideoProj1\bin\VideoProj1.pdb
+D:\AM\VideoProj\VideoProj1\VideoProj1\obj\Debug\ResolveAssemblyReference.cache
+D:\AM\VideoProj\VideoProj1\VideoProj1\obj\Debug\VideoProj1.dll
+D:\AM\VideoProj\VideoProj1\VideoProj1\obj\Debug\VideoProj1.pdb

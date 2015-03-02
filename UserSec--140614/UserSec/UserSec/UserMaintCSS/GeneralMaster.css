@@ -1,0 +1,31 @@
+﻿
+
+
+.mainCphDiv
+{
+	
+    z-index: 1; left: 8px; top: 247px; position: absolute; height: 65px; width: 1189px;
+    
+}
+.font
+{
+	color:Red;
+}
+.backColor
+{
+	background-color:Silver;
+	 font-family:Arial Black;
+	 
+}
+.table
+{
+	border-bottom-style:solid;
+	border-bottom-color:Black;
+	border-left-style:solid;
+	border-left-color:Black;
+	border-right-style:solid;
+	border-right-color:Black;
+	border-top-style:solid;
+	border-top-color:Black
+}
+

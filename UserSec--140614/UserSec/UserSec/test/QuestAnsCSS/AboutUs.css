@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0 auto}
+
+#top {
+	background-image: url(../images/bg1.jpg);
+	background-repeat: repeat-x;
+	text-align:center;
+}
+
+#main_div {
+	margin:0 auto;
+	width:1000px;
+ }
+ .yellowtxt{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	color: #7a6100;
+	text-decoration: none;
+	padding: 5px 0px;
+}
+.yellowtxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #7a6100;
+	text-decoration: none;
+	padding: 8px 0px;
+	line-height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #7A6100;
+	margin-bottom:10px;
+}
+
+#slider {
+	border: 1px solid #13ade1;
+	width:968px;
+	margin:0 auto;
+}
+#center {
+	width:968px;
+	margin:0 auto;
+}
+.normalfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+}
+.redfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #C00;
+	text-decoration: none;
+}
+
+.yellowfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #960;
+	text-decoration: none;
+}
+.bluefont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #12aee0;
+	text-decoration: none;
+	text-align:center
+}
+
+#footer {
+	text-align:center;
+	background-color: #7a6100;
+	clear: both;
+	margin:0 auto;
+}
+
+ .yellowtxt10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #7a6100;
+	text-decoration: none;
+	padding: 5px 0px;
+}

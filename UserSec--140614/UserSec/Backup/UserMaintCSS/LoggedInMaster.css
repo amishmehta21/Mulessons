@@ -1,0 +1,131 @@
+﻿.TopCss
+{
+    
+    height: 220px;
+ 
+margin-left: 0px;
+
+}
+.Top1Css
+{
+    height: 95px;
+}
+.navigationCss
+{
+    /*
+    height: 72px;
+*/
+}
+.navigationL1Css
+{
+   /* 
+height: 22px;
+*/
+}
+.navigationL2Css
+{
+    /*
+    height: 26px;
+*/
+}
+.navigationL3Css
+{
+    /*
+   height: 29px;
+*/ 
+}
+.MessageCss
+{
+    /*
+    height: 85px;
+*/
+}
+.MessageL2Css
+{
+    /*
+    height: 37px; 
+margin-bottom: 0px;
+*/
+}
+.MessageL1Css
+{
+     
+height:20px;
+
+}
+.MainPageCss
+{
+    /*
+    height: 652px;
+*/
+}
+.cpDivCss
+{
+    /*
+    height: 648px;
+*/
+}
+#divMessageL1
+{
+    /*
+    height: 35px;
+*/
+}
+.lblUserNameCss
+{
+    z-index: 1; left: 1047px; top: 33px; position: absolute;
+}
+.none
+{
+    display:none;
+}
+.modalBackground
+{
+    background-color:Olive; 
+        -filter: alpha(opacity=70);
+opacity:0.7;
+filter: alpha(opacity=50); 
+}
+
+
+
+.center
+{
+     background-position:center;
+}
+
+.pnlEditUserTextItem
+{
+    background-color:Silver;
+    width:auto;
+    height:auto;
+    color:Black;
+}
+
+.pnlMiscEditTextItem
+{
+     background-color:Silver;
+    width:600px;
+    height:600px; 
+}
+
+.myMenu  li
+{
+-border-radius:1px 1px 1px 1px; 
+margin-top:0px;
+height:auto;
+width:auto;
+background:Silver;
+background: background: -webkit-linear-gradient(top, #2F2727, #1a82f7);
+border-left:1px solid black; border-top:1px groove red; border-right:1px solid black; border-bottom:1px groove black;
+ 
+ 
+}
+
+.myMenu li a:hover
+{
+	
+    background-color:Red;
+    
+     
+}

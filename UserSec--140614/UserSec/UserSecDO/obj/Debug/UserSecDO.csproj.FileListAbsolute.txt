@@ -1,0 +1,5 @@
+C:\Users\abcd\documents\visual studio 2010\Projects\UserSec\UserSecDO\bin\Debug\UserSecDO.dll
+C:\Users\abcd\documents\visual studio 2010\Projects\UserSec\UserSecDO\bin\Debug\UserSecDO.pdb
+C:\Users\abcd\documents\visual studio 2010\Projects\UserSec\UserSecDO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abcd\documents\visual studio 2010\Projects\UserSec\UserSecDO\obj\Debug\UserSecDO.dll
+C:\Users\abcd\documents\visual studio 2010\Projects\UserSec\UserSecDO\obj\Debug\UserSecDO.pdb
